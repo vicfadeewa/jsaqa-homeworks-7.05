@@ -1,0 +1,23 @@
+{
+  "name": "jsaqa-homeworks-7.05",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "VictoriyaF",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test:jest": "jest",
+    "test:cucumber": "cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "chai": "^6.2.2",
+    "jest": "^30.3.0",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^24.39.0"
+  }
+}
