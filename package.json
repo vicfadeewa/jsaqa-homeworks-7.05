@@ -10,8 +10,9 @@
     "lib": "lib"
   },
   "scripts": {
+    "test": "jest tests/booking.spec.js",
     "test:jest": "jest",
-    "test:cucumber": "cucumber-js"
+    "test:cucumber": "cucumber-js features"
   },
   "dependencies": {
     "@cucumber/cucumber": "^12.7.0",
